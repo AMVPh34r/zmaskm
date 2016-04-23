@@ -1,0 +1,99 @@
+@import url("fonts.css");
+
+html,body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+	background: #6900a2;
+	overflow: hidden;
+}
+
+
+/* * * * * * *
+* Navbar
+* * * * * * */
+.navbar {
+	position: fixed;
+	z-index: 999;
+	min-height: 50px;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 20px;
+	background: #222;	
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navbar ul li {
+	float: left;
+}
+
+.navbar li a {
+	font-family: bebas_neue;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+	text-align: center;
+	display: inline-block;
+	padding: 14px 16px;
+}
+
+.navbar li a.active {
+	background: #484848;
+}
+
+.navbar li a:hover:not(.active) {
+	background: #222;
+}
+
+
+/* * * * * * *
+* Homepage
+* * * * * * */
+#page-background {
+	background: #ff0000;
+	/*border-bottom: 4px solid #000;*/
+	height: 50%;
+	width: 100%;
+	position: fixed;
+}
+
+.container {
+	height: 100%;
+	display: table;
+	width: 100%;
+	padding: 0;
+	margin: auto;
+}
+
+.center-box {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.center-box .content {
+	position: relative;
+	margin: 0 auto;
+	padding: 18px;
+	color: #fff;
+	text-align: center;
+	display: none;
+}
+
+.center-box .content.text {
+	width: 33%;
+	background: #222;
+}
+
+.center-box .content.active {
+	display: block;
+}

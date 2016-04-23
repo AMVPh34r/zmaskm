@@ -1,0 +1,2 @@
+# Files containing potentially sensitive information
+config/Database.php
