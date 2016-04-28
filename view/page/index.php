@@ -11,4 +11,5 @@
 		</div>
 	</div>
 </div>
+<?php Template::includeTemplate('page_footer.php') ?>
 <?php Template::includeTemplate('html_footer.php'); ?>

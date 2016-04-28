@@ -12,7 +12,17 @@ html,body {
 
 
 /* * * * * * *
-* Navbar
+* Global
+* * * * * * */
+.vertical-align {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+/* * * * * * *
+* Navbar/footer
 * * * * * * */
 .navbar {
 	position: fixed;
@@ -53,6 +63,25 @@ html,body {
 
 .navbar li a:hover:not(.active) {
 	background: #222;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	min-height: 50px;
+	width: 100%;
+	margin: 0;
+	background: #222;
+	color: #fff;
+}
+
+.footer p {
+	position: relative;
+	bottom: 50%;
+	transform: translateY(50%);
+	margin: 0 15px;
+	font-size: 0.7em;
 }
 
 
