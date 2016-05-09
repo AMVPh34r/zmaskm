@@ -4,5 +4,6 @@
 		<li><a href="https://twitter.com/zMASKm" target="_blank"><img src="/img/social/icon-twitter.png" alt="Twitter" title="Mask on Twitter"></a></li>
 		<li><a href="https://twitch.tv/zMASKm/profile" target="_blank"><img src="/img/social/icon-twitch.png" alt="Twitch" title="Mask on Twitch"></a></li>
 		<li><a href="http://steamcommunity.com/id/zMASKm" target="_blank"><img src="/img/social/icon-steam.png" alt="Steam" title="Mask on Steam"></a></li>
+		<li><a href="https://discordapp.com/invite/0Tdpdb5ZX4FF06oP" target="_blank"><img src="/img/social/icon-discord.png" alt="Discord" title="Mask's Discord Server"></a></li>
 	</ul>
 </div>
