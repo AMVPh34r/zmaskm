@@ -126,3 +126,19 @@ html,body {
 .center-box .content.active {
 	display: block;
 }
+
+/* Social Links */
+.social ul {
+	list-style-type: none;
+}
+
+.social ul li {
+	display: inline-block;
+	margin: 0 5px;
+	transition: opacity 0.25s linear;
+}
+
+.social ul li:hover {
+	opacity: 0.6;
+	transition: opacity 0.25s linear;
+}
